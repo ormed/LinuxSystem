@@ -33,13 +33,6 @@
 		<link id="ie9style" href="css/ie9.css" rel="stylesheet">
 	<![endif]-->
 		
-	<!-- start: Favicon -->
-	<!--<link rel="shortcut icon" href="img/gallery/photo1.jpg"> -->
-	<!-- end: Favicon -->
-	
-		
-		
-		
 </head>
 
 <body>
@@ -52,7 +45,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="brand" href="index.html"><span>Linux System</span></a>
+				<a class="brand" href="index.php"><span>Linux System</span></a>
 								
 				<!-- start: Header Menu -->
 				<div class="nav-no-collapse header-nav">
@@ -335,7 +328,7 @@
 			<div id="sidebar-left" class="span2">
 				<div class="nav-collapse sidebar-nav">
 					<ul class="nav nav-tabs nav-stacked main-menu">
-						<li><a href="index.html"><i class="icon-bar-chart"></i><span class="hidden-tablet"> Dashboard</span></a></li>	
+						<li><a href="index.php"><i class="icon-bar-chart"></i><span class="hidden-tablet"> Dashboard</span></a></li>
 						<li><a href="messages.html"><i class="icon-envelope"></i><span class="hidden-tablet"> Messages</span></a></li>
 						<li><a href="tasks.html"><i class="icon-tasks"></i><span class="hidden-tablet"> Tasks</span></a></li>
 						<li><a href="ui.html"><i class="icon-eye-open"></i><span class="hidden-tablet"> UI Features</span></a></li>
@@ -376,7 +369,7 @@
 			<ul class="breadcrumb">
 				<li>
 					<i class="icon-home"></i>
-					<a href="index.html">Home</a> 
+					<a href="index.php">Home</a>
 					<i class="icon-angle-right"></i>
 				</li>
 				<li><a href="#">Dashboard</a></li>

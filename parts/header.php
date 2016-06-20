@@ -5,7 +5,7 @@
 
     <!-- start: Meta -->
     <meta charset="utf-8">
-    <title>Linux System Login</title>
+    <title>Linux System</title>
     <meta name="description" content="Bootstrap Metro Dashboard">
     <meta name="author" content="Dennis Ji">
     <meta name="keyword" content="Metro, Metro UI, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
@@ -14,6 +14,10 @@
     <!-- start: Mobile Specific -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- end: Mobile Specific -->
+
+
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
     <!-- start: CSS -->
     <link id="bootstrap-style" href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,14 +37,5 @@
     <!--[if IE 9]>
     <link id="ie9style" href="css/ie9.css" rel="stylesheet">
     <![endif]-->
-
-    <!-- start: Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <!-- end: Favicon -->
-
-    <style type="text/css">
-        body { background: url(/img/gallery/photo1.jpg) !important; }
-    </style>
-
 
 </head>
