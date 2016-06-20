@@ -26,6 +26,8 @@
     <link id="base-style-responsive" href="css/style-responsive.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
     <!-- end: CSS -->
+    
+    <script src="LinuxSystem/js_lib/nav.js"></script>
 
 
     <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->

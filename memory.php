@@ -30,29 +30,27 @@ $mem_free = shell_exec('free -m');
     <div id="content" class="span10">
         <ul class="breadcrumb">
             <li>
-                <i class="icon-home"></i>
-                <a href="index.php">Home</a>
+                <a href="index.php"><i class="icon-home"></i> Home</a>
                 <i class="icon-angle-right"></i>
             </li>
-            <li><a href="blank.php">Blank</a></li>
+            <li>
+	            <a href="memory.php"><i class="icon-dashboard"></i> Memory</a>
+            </li>
         </ul>
 
         <div class="row-fluid">
-            <h1 class="page-header">Monitor</h1>
+            <h1 class="page-header">Memory</h1>
 
             <div class="row">
                 <div class="span7" id="chart_div" style="width: 500px; height: 200px;"></div>
                 <div class="span6">
-                    <label>Monitor</label>
+                    <label>Physical memory</label>
                     <div class="span7" id="cpu_div" style="width: 500px; height: 200px;"></div>
                 </div>
             </div>
 
             <label>Memory usage</label>
             <pre><?php echo($mem_free); ?></pre>
-
-            <label>Processes table</label>
-            <pre id="process-table"></pre>
 
 
         </div>

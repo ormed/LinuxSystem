@@ -15,15 +15,13 @@
                     <!-- end: Notifications Dropdown -->
                     <!-- start: Message Dropdown -->
                     <li class="dropdown hidden-phone">
-                        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                            <span id="system-time">Clock</span>
-                        </a>
+                        <a class="btn dropdown-toggle" href="system_date.php">Clock<span id="system-time"></span></a>
                     </li>
 
                     <!-- start: User Dropdown -->
                     <li class="dropdown">
                         <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                            <i class="halflings-icon white user"></i> Or Medina
+                            <i class="halflings-icon white user"></i> <?php echo $_SESSION['user']; ?> 
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
@@ -57,6 +55,8 @@
                     <li><a href="memory.php"><i class="icon-save"></i><span class="hidden-tablet"> Memory</span></a></li>
                     <li><a href="network.php"><i class="icon-sitemap"></i><span class="hidden-tablet"> Network Cards</span></a></li>
                     <li><a href="cpu.php"><i class="icon-table"></i><span class="hidden-tablet"> CPU</span></a></li>
+                    <li><a href="commands.php"><i class="icon-code"></i><span class="hidden-tablet"> Commands</span></a></li>
+
 
                 </ul>
             </div>
