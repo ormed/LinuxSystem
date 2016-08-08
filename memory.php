@@ -1,7 +1,10 @@
 <?php
-/*if (!isset($_SESSION['user'])) {
-    header("Location: /LinuxSystem/login.php");
-}*/
+@session_start();
+
+if (!isset($_SESSION['user'])) {
+    header("Location: login.php");
+}
+
 include_once 'parts/header.php';
 
 $disk_usage = shell_exec('df -BM');
@@ -42,17 +45,14 @@ $mem_free = shell_exec('free -m');
             <h1 class="page-header">Memory</h1>
 
             <div class="row">
-                <div class="span7" id="chart_div" style="width: 500px; height: 200px;"></div>
+                <div class="span7" id="chart_div" style="width: 90%; height: 250px;"></div>
                 <div class="span6">
                     <label>Physical memory</label>
-                    <div class="span7" id="cpu_div" style="width: 500px; height: 200px;"></div>
+                    <div class="span7" id="cpu_div" style="width: 20%;"></div>
                 </div>
             </div>
-
             <label>Memory usage</label>
             <pre><?php echo($mem_free); ?></pre>
-
-
         </div>
 
     <!-- end: Content -->

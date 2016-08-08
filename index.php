@@ -1,4 +1,11 @@
 <?php
+@session_start();
+
+if (!isset($_SESSION['user'])) {
+    header("Location: login.php");
+}
+
+include_once 'help_functions.php';
 include_once 'parts/header.php';
 ?>
 
@@ -30,8 +37,7 @@ include_once 'parts/header.php';
 </div><!--/fluid-row-->
 
 
-<?php include_once 'parts/bottom.php';?>
-
-</body>
-
-</html>
+<?php 
+	include_once 'parts/bottom.php';
+	include_once 'parts/footer.php';
+?>

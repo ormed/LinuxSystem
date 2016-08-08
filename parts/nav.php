@@ -1,3 +1,9 @@
+<?php 
+
+$performing_user = $_SESSION['user'];
+
+?>
+
 <!-- start: Header -->
 <div class="navbar">
     <div class="navbar-inner">
@@ -21,7 +27,7 @@
                     <!-- start: User Dropdown -->
                     <li class="dropdown">
                         <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                            <i class="halflings-icon white user"></i> <?php echo $_SESSION['user']; ?> 
+                            <i class="halflings-icon white user"></i><?php echo $performing_user; ?> 
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
@@ -29,7 +35,7 @@
                                 <span>Account Settings</span>
                             </li>
                             <li><a href="#"><i class="halflings-icon user"></i> Profile</a></li>
-                            <li><a href="login.php"><i class="halflings-icon off"></i> Logout</a></li>
+                            <li><a href="logout.php"><i class="halflings-icon off"></i> Logout</a></li>
                         </ul>
                     </li>
                     <!-- end: User Dropdown -->
@@ -56,7 +62,7 @@
                     <li><a href="network.php"><i class="icon-sitemap"></i><span class="hidden-tablet"> Network Cards</span></a></li>
                     <li><a href="cpu.php"><i class="icon-table"></i><span class="hidden-tablet"> CPU</span></a></li>
                     <li><a href="commands.php"><i class="icon-code"></i><span class="hidden-tablet"> Commands</span></a></li>
-
+                    <li><a href="free_commands.php"><i class="icon-text-height"></i><span class="hidden-tablet"> Free Command Line</span></a></li>
 
                 </ul>
             </div>

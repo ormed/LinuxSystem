@@ -1,4 +1,3 @@
-<?php include_once './help_functions.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

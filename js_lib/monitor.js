@@ -85,7 +85,7 @@ function drawCpuChart() {
             cpu_data.setValue(0, 1, result);
             chart.draw(cpu_data, options);
         });
-    }, 5000);
+    }, 3000);
 
     // intervals update cpu chart from mpstat shell command
     setInterval(function() {

@@ -1,7 +1,6 @@
 <?php
 @session_start();
 
-include_once('./parts/help_functions.php');
 header('Content-type: application/json');
 
 if (!isset($_SESSION['user'])) {
